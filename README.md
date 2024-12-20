@@ -2,8 +2,7 @@
 
 ## Features
 * This is an application where workers and their shifts are recorded. In this Application, each shift is assigned to exactly one worker, establishing a one-to-many relationship. A worker can have multiple shifts, but each shift uniquely belongs to a single worker.There can be multiple workers.
-* An API and the console app that will consume it have been created.
-* There are  two applications: the Web API and the UI that will call it.
+* There are  two applications: the Web API and the UI that will consume it.
 * All validation and user input happen in the UI app. The front-end project has try-catch blocks around the API calls so it handles unexpected errors (i.e. the API isn't running or returns a 500 error.)
 * The Web API is developed using Entity Framework, as it takes care of the CRUD operations needed. It was tested separately using Postman before creating the UI project.
 
