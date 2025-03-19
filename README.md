@@ -7,25 +7,6 @@
 * The Web API is developed using Entity Framework, as it takes care of the CRUD operations needed. It was tested separately using Postman before creating the UI project.
 
     ![Screenshot](/images/Postman.png)
-* Following screenshots show some app functionalities.
-* Option Menu
-
-    ![Screenshot](/images/Menu.png)
-* Create Worker
-
-    ![Screenshot](/images/AddWorker.png)
-
-* Create Shift (All necessary validations for adding the workers and shifts are taken care of before creating a worker or a shift)
-    ![Screenshot](/images/Validation1.png)
-
-* Edit Worker/ Shifts
-    ![Screenshot](/images/EditWorker.png)
-
-    ![Screenshot](/images/EditShift1.png)
-
-* Delete Worker/Shift
-    ![Screenshot](/images/DeleteShift.png)
-
 
 ## To run, create a .env file in the root directory of the Web Api(ShiftLogger.AdityaVaidya) and add the following properties
 * CONNECTION_STRING=Connection string to your database
@@ -36,4 +17,3 @@ To create database locally run the below command in your NuGet Package Manager C
 * dotnet ef database update
 
 Now, start the  Web API (ShiftLogger.AdityaVaidya) project and the console app(ShiftLogger.ShiftTrack) separately. 
-    ![Screenshot](/images/SeparateProjects.png)
